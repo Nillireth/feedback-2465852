@@ -32,11 +32,11 @@ const FeedbackItem = () => {
             <div className="text-display">
                 {text}
             </div>
-        <button onClick={addNota }>
+        <button onClick={addNota } className="btn">
             Sumar Nota
         </button>
 
-        <button onClick={restNota }>
+        <button onClick={restNota } className="btn">
             Restar Nota
         </button>
         </div>
